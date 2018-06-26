@@ -1,0 +1,6 @@
+framework module WTBaseTool {
+  umbrella header "WTBaseTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
