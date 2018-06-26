@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTBaseTool_Example' do
+  pod 'WTBaseTool', :path => '../'
+
+  target 'WTBaseTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
